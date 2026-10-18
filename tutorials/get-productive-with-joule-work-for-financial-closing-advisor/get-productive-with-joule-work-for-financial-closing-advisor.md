@@ -16,7 +16,7 @@ parser: v2
 - Access to **SAP Joule Work**
 - Access to an **SAP S/4HANA Cloud** system with a live financial close in progress (used only as context for the conversation; nothing is written to S/4HANA in this tutorial)
 - Familiarity with period-end or year-end financial closing processes
-- Recommended follow-up: the companion tutorial [Guide Financial Closing Activities with an Intelligent Closing Advisor Agent](financial-closing-advisor-agent) - this tutorial produces the intent paragraph you will paste into that build tutorial.
+- Recommended follow-up: the companion tutorial [Guide Financial Closing Activities with an Intelligent Closing Advisor Agent](financial-closing-advisor-agent). This tutorial produces the intent paragraph you will paste into that build tutorial.
 
 
 ## You will learn
