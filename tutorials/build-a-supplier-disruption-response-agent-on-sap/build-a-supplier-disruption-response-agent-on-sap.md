@@ -216,7 +216,7 @@ jl init claude
 <!-- border -->
 ![jl init complete](08_jl_init_complete_skills_tree.png)
 
-> **Do not modify the IBD skills.** The files in `.claude/skills/` encode deployment conventions. Customise your agent through its own code, not through the skills that generate it.
+> **Do not modify the IBD skills.** The files in `.claude/skills/` encode deployment conventions. Customize your agent through its own code, not through the skills that generate it.
 
 #### Launch the Coding Agent
 
@@ -673,7 +673,7 @@ You have completed the end-to-end design and deployment of a Supplier Disruption
 
 Framed the agent as a procurement triage layer on top of SAP S/4HANA Public Cloud — the system of record handles purchase order and scheduling agreement data; the agent adds the cross-signal correlation, composite risk scoring, and provenance labeling that no standard transaction or report does natively
 
-Written an intent statement that explicitly named the source system, the two affected document types, the three-factor scoring model (delivery proximity, open value, geographic overlap), and the mandatory output labeling rule — giving Joule Studio's IBD engine the context to generate a deterministic risk classifier rather than a free-form LLM summariser
+Written an intent statement that explicitly named the source system, the two affected document types, the three-factor scoring model (delivery proximity, open value, geographic overlap), and the mandatory output labeling rule — giving Joule Studio's IBD engine the context to generate a deterministic risk classifier rather than a free-form LLM summarizer
 
 Reviewed a generated PRD with four operational guardrails — read-only SAP access, HIGH / MEDIUM / LOW scoring backed by externally configurable thresholds, 100% provenance labeling on every output claim, and explicit Human-in-the-Loop boundaries (agent assesses; procurement manager decides)
 

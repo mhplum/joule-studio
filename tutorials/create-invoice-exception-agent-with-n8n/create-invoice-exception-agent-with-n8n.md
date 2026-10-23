@@ -139,16 +139,16 @@ Once the **Intent Summary** is generated, Joule will proceed to create your **Pr
 **Product Objectives (in priority order)**
 
 1. Reduce time-to-decision on blocked invoices by automating block-reason analysis.
-2. Ensure AP Clerks receive a consolidated, contextualised analysis before making a release decision.
+2. Ensure AP Clerks receive a consolidated, contextualized analysis before making a release decision.
 3. Guarantee that no invoice is released in S/4HANA without an explicit AP Clerk approval.
 
 **Solution Architecture**
 
  By querying your SAP LeanIX Enterprise Architecture repository, Joule generates a landscape-aware architecture recommendation: target systems, relevant APIs, integration patterns, and cross-system dependencies, before any code is written.
 
-**Automation Level and Agent Behaviour**
+**Automation Level and Agent Behavior**
 
-The Invoice Exceptions n8n workflow operates at a **hybrid automation level**: all data retrieval and optimisation is performed autonomously; any action that modifies SAP S/4HANA data (invoice release decision), the AP clerk must explicitly approve it through SAP Task Center.
+The Invoice Exceptions n8n workflow operates at a **hybrid automation level**: all data retrieval and optimization is performed autonomously; any action that modifies SAP S/4HANA data (invoice release decision), the AP clerk must explicitly approve it through SAP Task Center.
 
 *Autonomous actions (no human input required):*
 - Reading blocked invoices from S/4HANA Cloud
