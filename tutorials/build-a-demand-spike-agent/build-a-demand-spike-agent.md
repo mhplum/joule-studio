@@ -254,7 +254,7 @@ The **Testing** phase is triggered automatically by Joule once the solution buil
 
 ### Deploy the Agent to the Development Landscape
 
-With all tests passed and the validation score confirmed, the **Budgeting Agent for Cost Center Increases** is ready for deployment.
+With all tests passed and the validation score confirmed, the **Demand Spike Delivery Prioritization Agent** is ready for deployment.
 
 1. Choose **Deploy**. Then confirm with **Deploy** again.
 
