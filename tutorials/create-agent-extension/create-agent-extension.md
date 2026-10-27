@@ -228,6 +228,8 @@ You have created an Instruction Extension for the pre-delivered Journal Entry Ag
 - Produced a structured Intent Analysis Summary and PRD
 - Generated a deployable extension.yaml artifact — with no manual YAML editing required
 
+> Do not attempt to deploy the extension. Your user does not have the required authorization - this is to prevent your extension from blocking the other participants.
+
 ### Create a New Extension (Optional)
 
 In this exercise, you will configure four extension layers for the Journal Entry Agent:
@@ -281,7 +283,7 @@ In this exercise, you will configure four extension layers for the Journal Entry
     <!-- border -->
     ![Joule Studio](30.png)
 
-Do not attempt to deploy the extension in the Agent Lab. Your user does not have the required authorization - this is to prevent your extension from blocking the other participants.
+> Do not attempt to deploy the extension. Your user does not have the required authorization - this is to prevent your extension from blocking the other participants.
 
 ### Summary
 
